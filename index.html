@@ -2,261 +2,248 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>demosite</title>
+    <title>main</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/my.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="library/css/normalize.css">
+    <link rel="stylesheet" href="library/css/my.css">
+    <link rel="stylesheet" href="library/css/style.css">
     <!--ここに都度必要なCSSを読み込む-->
-    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="library/css/top.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="myHeader">
-        <div class="headerLogo">
-            <a href="#">
-                <h1 class="en">DEMOSITE</h1>
-                <img src="" alt="">
-            </a>
+    <div class="headerLogo">
+        <a href="/">
+            <h1 class="en">MICHIHIRO</h1>
+            <img src="" alt="">
+        </a>
+    </div>
+    <div class="hamburger">
+        <div class="container">
+            <span class=""></span>
+            <span class=""></span>
         </div>
-        <div class="hamburger">
-            <div class="hamburger-menu">
-                <input type="checkbox" id="menu-btn-check">
-                <label for="menu-btn-check" class="menu-btn"><span></span></label>
-                <div class="menu-content">
-                    <ul>
-                        <li>
-                            <a href="#" class="en">HOME</a>
-                        </li>
-                        <li>
-                            <a href="#" class="en">SERVICE</a>
-                        </li>
-                        <li>
-                            <a href="#" class="en">ABOUT</a>
-                        </li>
-                        <li>
-                            <a href="#" class="en">PROJECT</a>
-                        </li>
-                        <li>
-                            <a href="#" class="en">NEWS</a>
-                        </li>
-                        <li>
-                            <a href="#" class="en">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    </div>
+    <nav class="headerNav pc">
+        <ul class="headerNavList">
+            <li class="headerNavListItem">
+                <a href="#">
+                    <p class="en">HOME</p>
+                </a>
+            </li>
+            <li class="headerNavListItem">
+                <a href="/about">
+                    <p class="en">ABOUT</p>
+                </a>
+            </li>
+            <li class="headerNavListItem">
+                <a href="/about">
+                    <p class="en">PORTFOLIO</p>
+                </a>
+            </li>
+            <li class="headerNavListItem">
+                <a href="">
+                    <p class="en">CONTACT</p>
+                </a>
+                <ul class="headerNavListItemChildren">
+                    <li class="headerNavListItemChildrenItem">
+                        <a href="">
+                            <p></p>
+                        </a>
+                    </li>
+                    <li class="headerNavLListItemChildrenItem">
+                        <a href="">
+                            <p></p>
+                        </a>
+                    </li>
+                    <li class="headerNavLListItemChildrenItem">
+                        <a href="">
+                            <p></p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 </header>
+<nav class="myGlobalNav mb">
+    <div class="inner1">
+        <ul class="globalNavList">
+            <li class="globalNavListItem">
+                <a href="#">
+                    <p class="en">HOME</p>
+                </a>
+            </li>
+            <li class="globalNavListItem">
+                <a href="/about">
+                    <p class="en">ABOUT</p>
+                </a>
+            </li>
+            </li>
+            <li class="globalNavListItem">
+                <a href="/portfolio">
+                    <p class="en">PORTFOLIO</p>
+            </li>
+            <li class="globalNavListItem">
+                <a href="/contact">
+                    <p class="en">CONTACT</p>
+                </a>
+            </li>
+            <li class="globalNavListItem">
+                <a href="/privacy">
+                    <p></p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
 <main>
-    <div class="container">
-        <div class="mySection myMv " id="mv">
-            <h1 class=" en bold">DEMO<br>CORPORATE<br>SITE</h1>
+    <div class="wrapper">
+        <div class="mySection myMv" id="mv">
+            <video id="bgVideo" src="library/video/mv01.mp4" poster="" autoplay loop muted></video>
+            <a href="#">Scroll</a>
         </div>
     </div>
-    <div class="block0">
-    </div>
-<div class="wrapper">
-    <div class="container">
-        <div class="mySection myService">
-            <div class="mySectionTitle">
-                <h2 class="en">SERVICE</h2>
+    <div class="wrapper">
+        <div class="mySection myAbout back1">
+            <div class="mySectionTitle slideContsL slideConts">
+                <h1 class="en" >About</h1>
+                <span class="titleUnderline">　</span>
             </div>
-            <div class="myServiceContent">
-                <div class="myServiceContentImg">
-                    <p class="en">service1</p>
+            <div class="myAboutContents">
+                <div class="myAboutImg back2">
+                    <img src="" alt="">
                 </div>
-                <div class="myServiceContentTxt">
-                    <p>
-                        texttexttexttexttexttext
-                    <br>texttexttexttexttexttext
-                    <br>texttexttexttexttexttext
-                    </p>
+                <div class="myAboutTxt ">
+                    <dl>
+                        <dt class="bold en">MICHIHIRO</dt>
+                        <dd>福島県在住</dd>
+                        <dd>20歳</dd>
+                        <dd>福島大学在学</dd>
+                    </dl>
                 </div>
-            </div>
-            <div class="myServiceContent">
-                <div class="myServiceContentImg">
-                    <p class="en">service1</p>
-                </div>
-                <div class="myServiceContentTxt">
-                    <p>
-                        texttexttexttexttexttext
-                    <br>texttexttexttexttexttext
-                    <br>texttexttexttexttexttext
-                    </p>
-                </div>
-            </div>
-            <div class="myServiceContent">
-                <div class="myServiceContentImg">
-                    <p class="en">service1</p>
-                </div>
-                <div class="myServiceContentTxt">
-                    <p>
-                        texttexttexttexttexttext
-                    <br>texttexttexttexttexttext
-                    <br>texttexttexttexttexttext
-                    </p>
-                </div>
-            </div>
-            <div class="moreBtn">
-                <a href="#" class="border_slide_btn en">MORE →</a>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="mySection myProject">
-            <div class="mySectionTitle">
-                <h2 class="en">PROJECT</h2>
+    <div class="wrapper">
+        <div class="mySection myService back1">
+            <div class="mySectionTitle slideContsL slideConts">
+                <h1 class="en c1">Service</h1>
+                <span class="titleUnderline">　　</span>
             </div>
-            <div class="myProjectContents">
-            <div class="myProjectContent">
-                <div class="myProjectContentImg">
-                    <p></p>
+            <div class="myServiceContents ">
+                <div class="myServiceContent slideContsR slideConts">
+
                 </div>
-                <div class="myProjectContentTxt">
-                    <p>
-                        texttexttexttexttexttext
-                    <br>texttexttexttexttexttext
+                <div class="myServiceContent slideContsL slideConts">
                     
-                    </p>
                 </div>
-            </div>
-            <div class="myProjectContent">
-                <div class="myProjectContentImg">
-                    <p></p>
-                </div>
-                <div class="myProjectContentTxt">
-                    <p>
-                        texttexttexttexttexttext
-                    <br>texttexttexttexttexttext
+                <div class="myServiceContent slideContsR slideConts">
                     
-                    </p>
                 </div>
-            </div>
-            <div class="myProjectContent">
-                <div class="myProjectContentImg">
-                    <p></p>
-                </div>
-                <div class="myProjectContentTxt">
-                    <p>
-                        texttexttexttexttexttext
-                    <br>texttexttexttexttexttext
-                    </p>
-                </div>
-            </div>
-            </div>
-            <div class="moreBtn">
-            <a href="#" class="border_slide_btn en">MORE →</a>
-        </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="mySection myNews">
-            <div class="mySectionTitle">
-                <h2 class="en">NEWS</h2>
-            </div>
-            <div class="myNewsContents">
-            <div class="myNewsContent">
-                <a href="#" class="myNewsContentTxt">
-                    <span >→</span>
-                    <p class="ymd">2021.1.1</p>
-                    <p>newsnewsnewsnews</p>
-                </a>
-            </div>
-            <div class="myNewsContent">
-                <a href="#" class="myNewsContentTxt">
-                    <span >→</span>
-                    <p class="ymd">2021.1.1</p>
-                    <p>newsnewsnewsnews</p>
-                </a>
-            </div>
-            <div class="myNewsContent">
-                <a href="#" class="myNewsContentTxt">
-                    <span >→</span>
-                    <p class="ymd">2021.1.1</p>
-                    <p>newsnewsnewsnews</p>
-                </a>
-            </div>
-            <div class="myNewsContent">
-                <a href="" class="myNewsContentTxt">
-                    <span >→</span>
-                    <p class="ymd">2021.1.1</p>
-                    <p>newsnewsnewsnews</p>
-                </a>
-            </div>
-            <div class="myNewsContent">
-                <a href="" class="myNewsContentTxt">
-                    <span >→</span>
-                    <p class="ymd">2021.1.1</p>
-                    <p>newsnewsnewsnews</p>
-                </a>
-            </div>
-            </div>
-            <div class="moreBtn">
-                <a href="#" class="border_slide_btn en">MORE →</a>
             </div>
         </div>
     </div>
-</div>
+    <div class="wrapper">
+        <div class="mysection myWork back1">
+            <div class="mySectionTitle slideContsL slideConts">
+                <h1 class="en">Work</h1>
+                <span class="titleUnderline"></span>
+            </div>
+            <div class="myWorkContents">
+                <div class="myWorkContent">
+                    <div class="myWorkContentView">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="myWorkContent">
+                    
+                </div>
+                <div class="myWorkContent">
+                    
+                </div>
+            </div>
+            <div class="myWorkMore">
+                <div class="myButton1 en">
+                    <a href="">MORE　→</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </main>
 <footer class="myFooter">
     <div class="footerContent1">
         <div class="inner1">
             <p class="footerAd en">
                 <a href="">
-                    TEL 000-0000
                 </a>
             </p>
             <p class="footerContact">
-                <a href="#" class="en">
-                    CONTACT
+                <a href="/contact" class="en">
+                    Contact
                 </a>
             </p>
         </div>
     </div>
-    <div class="footerContent2">
-        <div class="footerContent2Item1">
-            <div class="footerLogo en">
-                <h1 claas="">DEMOSITE</h1>
+    <div class="footerContent2 back1">
+        <div class="inner1">
+            <div class="footerContent2Main">
+                <div class="footerContent2MainContent">
+                    <div class="footerLogo en">
+                        <h1 claas="">MICHIHIRO</h1>
+                    </div>
+                    <div class="footerInformation">
+                        <div class="snsBottun">
+                            <ul class="snsbtniti en">
+                                <li><a href="TwitterのプロフィールURL" class="flowbtn5 fl_tw1">
+                                <i class="fab fa-twitter"></i><div>Twitter</div></a></li>
+                                <li><a href="インスタのプロフィールURL" class="flowbtn5 insta_btn5"><i class="fab fa-instagram"></i><div>Instagram</div></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerContent2MainNav tbpc">
+                    <ul class="footerContent2MainNavList">
+                        <li class="footerContent2MainNavListItem">
+                            <a href="" class="en">
+                                <p>HOME</p>
+                            </a>
+                        </li>
+                        <li class="footerContent2MainNavListItem">
+                            <a href="" class="en">
+                                <p>ABOUT</p>
+                            </a>
+                        </li>
+                        <li class="footerContent2MainNavListItem">
+                            <a href="" class="en">
+                                <p>PORTFOLIO</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="footerInformation">
+            <div class="footerCR">
+                <p class="en">© MICHIHIRO</p>
             </div>
         </div>
-        <div class="footerContent2Item2">
-            <li class="footerContent2Item2Nav">
-                <a href="" class="en">
-                    <p>HOME</p>
-                </a>
-            </li>
-            <li class="footerContent2Item2Nav">
-                <a href="" class="en">
-                    <p>ABOUT</p>
-                </a>
-            </li>
-            <li class="footerContent2Item2Nav">
-                <a href="" class="en">
-                    <p>PORTFOLIO</p>
-                </a>
-            </li>
-        </div>
     </div>
-    <div class="footerCR">
-        <p class="en">© DEMOSITE</p>
-    </div>
+    <p id="pagetop">
+        　<a href="#"><span>↑</span><br></a>
+    </p>
 </footer>
-<div id="loading">
-    <div class="trinity-rings-spinner">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-    </div>
-</div>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  
-<script src="hamburger.js"></script>
-<script src="js/load.js"></script>
+<script src="library/js/hamburger.js"></script>
+<script src="library/js/scroll.js"></script>
+<script src="library/js/returnTop.js"></script>
+<script src="library/js/slide.js"></script>
 </html>
