@@ -1,19 +1,9 @@
 .myMv {
     height: 100vh;
-}
-
-
-#bgVideo{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    background: url() no-repeat;
+    width: 100%;
+    background-image: url("../img/bg.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .mySectionTitle{
