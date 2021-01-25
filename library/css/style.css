@@ -29,11 +29,6 @@
     --c7: #83CFFF;
 }
 
-/*制作時に画像がない時の代用*/
-img {
-    background: rgb(18, 83, 136);
-}
-
 /*装飾関係*/
 * {
     box-sizing: border-box;
@@ -42,18 +37,6 @@ img {
 .en {
     font-family: var(--en);
     font-weight: bold;
-}
-
-.c1 {
-    color: var(--c1);
-}
-
-.c2 {
-    color: var(--c7);
-}
-
-.c3 {
-    color: var(--c3);
 }
 
 .back1 {
@@ -71,26 +54,6 @@ img {
 
 .back4 {
     background-color: var(--c1);
-}
-
-.border1 {
-    border: 1px solid var(--c1);
-}
-
-.border2 {
-    border: 1px solid var(--c1);
-}
-
-.border3 {
-    border-bottom: 1px solid var(--c5);
-}
-
-.border4 {
-    border-bottom: 1px solid var(--c1);
-}
-
-.shadow1 {
-    box-shadow: var(--shadow1);
 }
 
 .dl1 {
@@ -178,131 +141,15 @@ body {
     transition: 0.5s;
 }
 
-/* .myButton1 a:after {
-    content: "";
-    display: block;
-    width: 0.6rem;
-    height: 1.2rem;
-    background: center center / contain no-repeat url("../img/arrow_r.svg");
-    position: absolute;
-    top: 50%;
-    right: 2rem;
-    transform: translateY(-50%);
-    transition: 0.5s;
-} */
-
-.myButton1:hover {
-    transition: 0.5s;
-    background: var(--c1);
-    color: #fff;
-}
-
-.myButton1:hover a {
-    color: #fff;
-}
-
-.myButton1:hover a:after {
-    background: center center / contain no-repeat url("../img/arrow_w_r.svg");
-}
-
-.myButtonList2 {
-}
-
-.myButtonList2 .myButton2 {
-    margin: 0 auto 2.5rem;
-}
-
-.myButton2 {
-    width: 100%;
-    height: 3.5rem;
-    font-size: 1.6rem;
-    border-bottom: 1px solid var(--c1);
-    margin: 0 auto;
-    display: block;
-    background: none;
-    font-weight: bold;
-    color: var(--c1);
-}
-
-.myButton2 h3 {
-    font-size: inherit;
-}
-
-.myButton2 p {
-    line-height: 1;
-    padding: 0.4rem 0 0;
-}
-
-.myButton2 a {
-    text-decoration: none;
-    display: flex;
-    color: var(--c1);
-    justify-content: space-between;
-    padding: 0 1.45rem;
-    height: 100%;
-    align-items: center;
-    transition: 0.5s;
-}
-
-.myButton2:hover  a{
-    padding: 0;
-}
-
-.myButton2 a:after {
-    content: "";
-    display: block;
-    width: 0.7rem;
-    height: 1.4rem;
-    top: 50%;
-    margin: 0.4rem 0 0;
-    transition: 0.5s;
-    background: center center / contain no-repeat url("../img/arrow_r.svg");
-}
-
-.myButton2 p {
-    margin: 0;
-}
-
-.myButton3 {
-    width: 100%;
-    height: 6rem;
-    line-height: 6rem;
-    font-size: 1.8rem;
-    border: 0.1rem solid var(--c1);
-    color: var(--c1);
-    font-weight: bold;
-    margin: 6rem auto 0;
-    text-align: center;
-    transition: 0.5s;
-}
-
-.myButton3:hover {
-    background: var(--c1);
-    color: #fff;
-}
-
 /*header*/
 .myHeader {
     padding: 1.6rem 1.5rem;
-    display: flex; 
-    justify-content: space-between;
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
     height: 6rem;
     position: fixed;
-    transition: .3s;
-
-}
-
-.headerLogo {
-    font-size: 1rem;   
-}
-
-.headerLogo a{
-    transition: .3s;
-}
-
-.headerLogo img {
-    width: 18.829rem;
+    text-align: right;
 }
 
 .hamburger {
@@ -324,6 +171,7 @@ body {
     height: 0.1rem;
     transition: 0.5s;
     transform: translateX(-50%);
+    background-color: #000;
 }
 
 .hamburger span:nth-of-type(1) {
@@ -354,7 +202,7 @@ body {
     z-index: 20;
     height: 100vh;
     width: 100vw;
-    background: var(--c1);
+    background: rgba(77, 77, 77, 0.8);
     padding: 10rem 0;
     overflow-y: scroll;
     color: var(--c2);

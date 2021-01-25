@@ -2,6 +2,7 @@
     height: 100vh;
     width: 100%;
     background-image: url("../img/bg.png");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -91,7 +92,7 @@
     z-index: 2;
     padding: 10px 10px 110px;
     overflow: hidden;
-    color: #fff;
+    color: #000;
     font-size: 14px;
     line-height: 1;
     letter-spacing: .2em;
@@ -108,7 +109,7 @@
     left: 50%;
     width: 1px;
     height: 100px;
-    background: #fff;
+    background: #000;
 }
 
 a::after {
