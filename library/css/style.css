@@ -363,13 +363,13 @@ body {
 #pagetop {
     display:inline-block;
     position:fixed;
-    bottom:1rem;
-    right:1rem;
+    bottom:3rem;
+    right:2rem;
 }
     
     
 #pagetop a {
-    padding:.6rem 1.3rem;
+    padding:.6rem 1.4rem;
     display:block;
     background: var(--c1);
     color:#fff;
