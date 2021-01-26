@@ -10,11 +10,11 @@
     font-weight: bold;
 }
 */
-@font-face {
+/* @font-face {
     font-family: 'Cormorant Garamond';
     src: url('../font/CormorantGaramond-SemiBoldItalic.ttf');
     font-weight: bold;
-}
+} */
 
 :root {
     /* Font/text values */
