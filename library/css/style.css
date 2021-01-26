@@ -9,12 +9,12 @@
     src: url('../font/NotoSansCJKjp-Bold_compressed.woff');
     font-weight: bold;
 }
-
+*/
 @font-face {
-    font-family: 'NotoSerifCJKjp';
-    src: url('../font/NotoSerifCJKjp-Regular_compressed.woff');
+    font-family: 'Cormorant Garamond';
+    src: url('../font/CormorantGaramond-SemiBoldItalic.ttf');
     font-weight: bold;
-}/ */
+}
 
 :root {
     /* Font/text values */
