@@ -1,0 +1,42 @@
+@import "import.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+.ja {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.en {
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    font-size: 2.6666666666vw;
+    @include mq() {
+        font-size: 10px;
+    }
+}
+
+body {
+    @extend .ja;
+    font-size: 1.4rem;
+    line-height: 2.14285714286;
+    margin: 0;
+    padding: 0;
+    @include mq() {
+        font-size: 1.4rem;
+    }
+}
+
+.sketchfab-embed-wrapper {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+iframe {
+    width: 90vw;
+    height: 40rem;
+    margin: 0 auto;
+}

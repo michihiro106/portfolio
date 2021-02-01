@@ -19,6 +19,10 @@
   line-height: 1.2;
 }
 
+.myMv h2 {
+  color: #004954;
+}
+
 .myMv a {
   display: inline-block;
   position: absolute;
@@ -29,7 +33,7 @@
   z-index: 2;
   padding: 10px 10px 110px;
   overflow: hidden;
-  color: #000;
+  color: #004954;
   font-size: 14px;
   line-height: 1;
   letter-spacing: .2em;
@@ -45,7 +49,7 @@
   left: 50%;
   width: 1px;
   height: 100px;
-  background: #000;
+  background: #004954;
 }
 
 .myMv a::after {
@@ -107,26 +111,4 @@
     transform: scale(1, 0);
     transform-origin: 0 100%;
   }
-}
-
-.slideConts {
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
-}
-
-.slideContsL {
-  transform: translate(-50rem, 0);
-}
-
-.slideContsR {
-  transform: translate(50rem, 0);
-}
-
-.slideContsL.show {
-  transform: translate(0, 0) !important;
-}
-
-.slideContsR.show {
-  transform: translate(0, 0) !important;
 }

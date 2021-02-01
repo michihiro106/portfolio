@@ -20,21 +20,4 @@ $breakpoints: (
 
 $c1: #fff;
 $c2: #000;
-$c3: #004954;
-
-@font-face {
-    font-family: 'Cormorant Garamond';
-    src: url('../font/CormorantGaramond-SemiBoldItalic.ttf');
-    font-weight: bold;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-
-
-.en {
-    font-family: 'Cormorant Garamond', sans-serif;
-    font-weight: bold;
-}
+$c3: #f5f5f5;
