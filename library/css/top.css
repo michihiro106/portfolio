@@ -57,19 +57,32 @@
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .mySkillContents {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .mySkillContent {
   background-color: #fff;
-  padding: 2rem 2rem;
+  padding: 3rem 2rem;
   box-shadow: 2px 2px 8px gray;
   margin: 2rem 0;
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .mySkillContent {
+    padding: 2rem 4rem;
+    margin: 0  2rem;
+  }
+}
+
 .mySkillContent img {
-  background-color: antiquewhite;
-  height: 10rem;
-  width: 10rem;
-  margin: 0 auto;
+  height: 8rem;
+  width: 8rem;
+  margin: 0 auto 2rem;
 }
 
 .myAboutContent {

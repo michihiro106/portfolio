@@ -2,7 +2,7 @@ var $ = jQuery.noConflict();
 $(function () {
     console.log('hello');
     var $hum = $('.hamburger'),
-        $nav = $('.myGlobalNav.mb'),
+        $nav = $('.myGlobalNav'),
         $headerMenuItem = $('.headerNavListItem');
     $hum.click(function () {
         console.log('クリック');
