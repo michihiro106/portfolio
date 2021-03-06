@@ -1,0 +1,67 @@
+@import "import.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: calc(100vw/32);
+    @include mq() {
+        font-size: 10px;
+    }
+}
+
+body {
+    font-size: 1.4rem;
+    color: $c1;
+    margin: 0;
+}
+
+.myHeader {
+    height: 6.2rem;
+    width: 100%;
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    background: $cw;
+    justify-content: space-between;
+
+    .headerLogo {
+        font-size: 1rem;
+        padding: 1rem;
+        
+        a {
+            width: 9rem;
+            margin-top: 0.2rem;
+        }
+
+    }
+
+    .headerContact {
+        width: 7.6rem;
+        background-color: $c2;
+        color: $cw;
+        font-size: 1.2rem;
+        text-align: center;
+        a {
+            padding: 1rem;
+            img {
+            height: 2.482rem;
+            width: 2rem;
+            margin: 0 auto;
+            }
+            p {
+                margin-top: 0.2rem;
+            }
+        }
+        
+    }
+}
+
+.headerBack {
+    height: 6rem;
+}
+
+
+
+

@@ -1,0 +1,42 @@
+
+$breakpoint-sp: 320px !default;
+$breakpoint-md: 768px !default;
+$breakpoint-lg: 1000px !default;
+
+@mixin mq($breakpoint: md) {
+    @media #{map-get($breakpoints, $breakpoint)} {
+        @content;
+    }
+}
+
+$breakpoints: (
+'sp': 'screen and (min-width: 320px)',
+'md': 'screen and (min-width: 768px)',
+'lg': 'screen and (min-width: 1000px)',
+'xl': 'screen and (min-width: 1200px)',
+) !default;
+
+//color
+
+$cw: #fff;
+$cb: #000;
+$c1: #333;
+$c2: #da6b64;
+$c3: #c7254e;
+$c4: #fef5e0;
+$c5: #ebb94d;
+$c6: #016ea9;
+
+
+//font
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('../font/CormorantGaramond-SemiBoldItalic.ttf');
+    font-weight: bold;
+}
+
+.en {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: bold;
+}
