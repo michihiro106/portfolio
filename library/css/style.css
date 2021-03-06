@@ -120,7 +120,7 @@ body {
   background: rgba(77, 77, 77, 0.8);
   padding: 10rem 0;
   overflow-y: scroll;
-  color: var(--c2);
+  color: white;
 }
 
 .myGlobalNav.show {
