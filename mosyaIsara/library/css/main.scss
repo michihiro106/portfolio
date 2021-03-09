@@ -11,14 +11,17 @@
     @include mq() {
         height: 50rem;
     }
-
-
-
-    img {
-        width: 26.2rem;
-        height: 9.2rem;
-        margin: 2rem auto 3rem;
+    .mvImg {
+        padding: 2rem 0;
+        img {
+            width: 26.2rem;
+            height: 9.2rem;
+            margin: 0 auto;
+        }
     }
+
+
+    
 
     p:nth-of-type(2n+1) {
         font-size: 1.8rem;

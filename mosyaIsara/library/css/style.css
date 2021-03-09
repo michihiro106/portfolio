@@ -44,6 +44,13 @@ body {
   padding: 1rem;
 }
 
+@media screen and (min-width: 768px) {
+  .myHeader .headerLogo {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
 .myHeader .headerLogo a {
   width: 9rem;
   margin-top: 0.2rem;

@@ -29,6 +29,14 @@ body {
     .headerLogo {
         font-size: 1rem;
         padding: 1rem;
+        @include mq() {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        p {
+            @include mq() {}
+        }
         
         a {
             width: 9rem;

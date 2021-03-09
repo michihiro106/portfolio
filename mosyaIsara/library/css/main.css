@@ -24,10 +24,14 @@
   }
 }
 
-.mv img {
+.mv .mvImg {
+  padding: 2rem 0;
+}
+
+.mv .mvImg img {
   width: 26.2rem;
   height: 9.2rem;
-  margin: 2rem auto 3rem;
+  margin: 0 auto;
 }
 
 .mv p:nth-of-type(2n+1) {
